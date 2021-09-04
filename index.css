@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:300vh;
+}
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    overflow-y: auto;  
+}
+@media(min-width:450px){
+    section{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+        margin: 2rem; 
+    }
+}
+.germanyParent{
+    width:70%;
+    height: 100%;    
+}
+
+
+.americaParent{
+    width:70%;
+    height: 100%;
+}
+.brazilParent{
+    width:70%;
+    height: 100%;
+
+}
+.icelandParent{
+    width:70%;
+    height: 100%;
+
+}
+@media(min-width:450px){
+    .germanyParent{
+        width:30%;
+        margin: 2%;
+        /* height: 50%;     */
+    }
+    .americaParent{
+        width:30%;
+        /* height: 50%;     */
+        margin: 2%;
+    }
+    .brazilParent{
+        width:30%;
+        /* height: 50%;     */
+        margin: 2%;
+    
+    }
+    .icelandParent{
+        width:30%;
+        /* height: 50%;     */
+        margin: 2%;
+    
+    }
+}
+/* @media(min-width:450px){
+    .americaParent{
+        width:70%;
+        height: 400%;
+    }
+    .germanyParent{
+        width:70%;
+        height: 400%;
+    }
+    .icelandParent{
+        width:70%;
+        height: 400%;
+    
+    }
+    .brazilParent{
+        width:70%;
+        height: 400%;
+    
+    }
+} */
+/* @media(min-width:600px){
+    .americaParent{
+        width:70%;
+        height: 600%;
+    }
+    .germanyParent{
+        width:70%;
+        height: 600%;
+    }
+    .icelandParent{
+        width:70%;
+        height: 600%;
+    
+    }
+    .brazilParent{
+        width:70%;
+        height: 600%;
+    
+    }
+} */
+.germany{
+    width:100%;
+    height: 50%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    margin-top: 5%;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.5s;   
+}
+
+.america{
+    width:100%;
+    height: 50%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/640px-Flag_of_the_United_States.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.5s;
+    margin-top: 5%;
+}
+
+.brazil{
+    width:100%;
+    height: 50%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/01/Brazil_flag_300.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.5s;
+    margin-top: 5%;
+    
+}
+
+.iceland{
+    width:100%;
+    height: 50%;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/640px-Flag_of_Iceland.svg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 0.5s;
+    margin-top: 5%;
+}
+@media(min-width:450px){
+    .germany{
+        width:100%;
+        height: 10%;
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png');
+        background-repeat: no-repeat;
+        background-size: cover;  
+        transition: all 0.5s;
+        
+        border-radius: 10px 10px 10px 10px;
+        }
+        .america{
+            width:100%;
+            height: 10%;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/640px-Flag_of_the_United_States.svg.png');
+            background-repeat: no-repeat;
+            background-size: cover;   
+            border-radius: 10px 10px 10px 10px;
+            transition: all 0.5s;
+            
+        }
+        .brazil{
+            width:100%;
+            height: 10%;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/01/Brazil_flag_300.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px 10px 10px 10px;
+            transition: all 0.5s;
+           
+            
+        }
+        .iceland{
+            width:100%;
+            height: 10%;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/640px-Flag_of_Iceland.svg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px 10px 10px 10px;   
+            transition: all 0.5s;        
+        }
+        
+}
+.germany:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.brazil:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.iceland:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.america:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
